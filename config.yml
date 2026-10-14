@@ -1,0 +1,11 @@
+# Abstand zwischen automatischen Backups in Minuten (0 = aus)
+interval-minutes: 60
+
+# Wie viele Backups behalten werden (aelteste werden geloescht)
+keep: 10
+
+# Zielordner (relativ zum Server-Hauptordner)
+backup-folder: backups
+
+# Zusaetzlich den plugins-Ordner sichern?
+include-plugins: false

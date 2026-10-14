@@ -1,0 +1,14 @@
+name: AutoBackup
+version: '${version}'
+main: de.example.autobackup.AutoBackupPlugin
+api-version: '1.21'
+description: Automatische Backups (ZIP) fuer Welten
+commands:
+  backup:
+    description: Backups verwalten
+    usage: /backup <now|list|reload>
+    permission: autobackup.admin
+permissions:
+  autobackup.admin:
+    description: Darf Backups verwalten
+    default: op
